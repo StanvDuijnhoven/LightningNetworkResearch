@@ -1,0 +1,15 @@
+  GNU nano 4.3                                      .bitcoin/bitcoin.conf   
+
+testnet=1
+blocksonly=1
+server=1
+daemon=1
+txindex=1
+listen=1
+dbcache=16000 # will take too much memory
+rpcuser=stan
+rpcpassword=stan
+zmqpubrawblock=tcp://127.0.0.1:28332
+zmqpubrawtx=tcp://127.0.0.1:28333
+
+
